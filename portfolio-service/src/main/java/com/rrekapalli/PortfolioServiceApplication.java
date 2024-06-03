@@ -10,7 +10,7 @@ public class PortfolioServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(PortfolioServiceApplication.class, args);
-        log.info("Stock service application started!");
+        log.info("Portfolio service application started!");
     }
 
 }

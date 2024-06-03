@@ -1,16 +1,18 @@
-package com.rrekapalli.stockservice;
+package com.rrekapalli;
+
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @Slf4j
+@EnableEurekaServer
 @SpringBootApplication
-public class StockServiceApplication {
-
+public class DiscoveryServerApplication
+{
     public static void main(String[] args) {
-        SpringApplication.run(StockServiceApplication.class, args);
+        SpringApplication.run(DiscoveryServerApplication.class, args);
         log.info("Stock service application started!");
     }
-
 }

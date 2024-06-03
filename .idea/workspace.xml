@@ -4,41 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/rrekapalli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/rrekapalli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/money-plant-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/money-plant-core/src/main/java/com/rrekapalli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/money-plant-core/src/main/java/com/rrekapalli/moneyplantcore/entities/BaseAuditEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/money-plant-core/src/main/java/com/rrekapalli/moneyplantcore/entities/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/PortfolioServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/entities/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/StockServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/controllers/StockController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/dtos/StockDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/dtos/StockResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/entities/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/repositories/StockRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/services/StockService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/rrekapalli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/watchlist-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/watchlist-service/src/main/java/com/rrekapalli/Main.java" afterDir="false" />
+    <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/rrekapalli/DiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/controllers/PortfolioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/dtos/PortfolioDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/dtos/PortfolioResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/repositories/PortfolioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/services/PortfolioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/com/rrekapalli/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/money-plant-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/money-plant-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/PortfolioServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/PortfolioServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/entities/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/entities/Portfolio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/StockServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/StockServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/entities/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/entities/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/repositories/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/rrekapalli/stockservice/repositories/StockRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +45,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -75,29 +67,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven.money-plant [clean,verify].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.StockServiceApplication.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/PoCs/Java/money-plant/portfolio-service/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.money-plant [clean,verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DiscoveryServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.PortfolioServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.StockServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/PoCs/Java/money-plant/portfolio-service/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reactor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PoCs\Java\money-plant\portfolio-service\src\main\resources" />
@@ -115,11 +114,41 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="Application" />
+        <option value="JarApplication" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.DiscoveryServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rrekapalli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortfolioServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="portfolio-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.PortfolioServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rrekapalli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StockServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="stock-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.stockservice.StockServiceApplication" />
@@ -136,6 +165,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.StockServiceApplication" />
+        <item itemvalue="Spring Boot.PortfolioServiceApplication" />
+        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -157,8 +188,22 @@
       <updated>1716095014314</updated>
       <workItem from="1716095015351" duration="467000" />
       <workItem from="1716095501607" duration="80000" />
-      <workItem from="1716134458207" duration="7021000" />
+      <workItem from="1716134458207" duration="7549000" />
+      <workItem from="1716191209564" duration="481000" />
+      <workItem from="1717301490689" duration="5478000" />
+      <workItem from="1717347377066" duration="2678000" />
+      <workItem from="1717350241877" duration="2897000" />
+      <workItem from="1717426014420" duration="2931000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1716141681628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716141681628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,5 +211,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
