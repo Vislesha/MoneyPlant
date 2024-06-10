@@ -66,6 +66,22 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.4.3</version>
+
+                <configuration>
+                    <from>
+                        <image>eclipse-temurin:21-jre@sha256:3186dd88a59659929855a6bb785b0528c812eb0b03d97fd6e2221526547ed322</image>
+                    </from>
+                    <to>
+<!--                        <image>rrekapalli/money-plant:${project.artifactId}-${project.version}</image>-->
+                        <image>rrekapalli/money-plant:stock-service-${project.version}</image>
+                    </to>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
