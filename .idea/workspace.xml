@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="Discovery service and Api Gateway issues resolved.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="Discovery service and Api Gateway issues resolved." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +47,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.4.3:build].executor": "Run",
+    "Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.4.3:dockerBuild].executor": "Run",
     "Maven.discovery-server [com.google.cloud.tools:jib-maven-plugin:3.4.3:build].executor": "Run",
     "Maven.money-plant [--projects,money-plant-core...].executor": "Run",
     "Maven.money-plant [clean,compile,jib:build].executor": "Run",
@@ -245,7 +244,7 @@
       <workItem from="1717993705905" duration="615000" />
       <workItem from="1717994342412" duration="1130000" />
       <workItem from="1717995494793" duration="4467000" />
-      <workItem from="1718000336611" duration="15641000" />
+      <workItem from="1718000336611" duration="15977000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -279,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718017238336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Discovery service and Api Gateway issues resolved.">
+      <option name="closed" value="true" />
+      <created>1718018078662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718018078662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
