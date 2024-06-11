@@ -4,50 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="Discovery service and Api Gateway issues resolved." />
+    <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="Discovery service and Api Gateway issues resolved.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
-  </component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2gfiQHTOFs9vyySU0BHY9TbJuqj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.4.3:build].executor": "Run",
-    "Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.4.3:dockerBuild].executor": "Run",
     "Maven.discovery-server [com.google.cloud.tools:jib-maven-plugin:3.4.3:build].executor": "Run",
     "Maven.money-plant [--projects,money-plant-core...].executor": "Run",
     "Maven.money-plant [clean,compile,jib:build].executor": "Run",
@@ -87,141 +58,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PoCs\Java\money-plant\portfolio-service\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.rrekapalli.moneyplantcore.entities" />
-      <recent name="com.rrekapalli.portfolioservice.entities" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean verify" />
-      <command value="mvn --projects money-plant-core install" />
-      <command value="mvn package" />
-      <command value="mvn clean:compile jib:dockerBuild" />
-      <command value="mvn jib:dockerBuild" />
-      <command value="mvn jib:build" />
-      <command value="mvn clean:clean package" />
-      <command value="mvn clean compile jib:build" />
-    </option>
-  </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="Application" />
-        <option value="JarApplication" />
-        <option value="MicronautRunConfigurationType" />
-        <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.TransactionServiceApplication">
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="api-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.ApiGatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rrekapalli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="discovery-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.DiscoveryServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PortfolioServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="portfolio-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.PortfolioServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rrekapalli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="stock-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.stockservice.StockServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rrekapalli.stockservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransactionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="transaction-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.TransactionServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rrekapalli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WatchlistServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="watchlist-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rrekapalli.WatchlistServiceApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rrekapalli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
-      <item itemvalue="Spring Boot.TransactionServiceApplication" />
-      <item itemvalue="Spring Boot.WatchlistServiceApplication" />
-      <item itemvalue="Spring Boot.StockServiceApplication" />
-      <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.PortfolioServiceApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.WatchlistServiceApplication" />
-        <item itemvalue="Spring Boot.TransactionServiceApplication" />
-        <item itemvalue="Spring Boot.PortfolioServiceApplication" />
-        <item itemvalue="Spring Boot.StockServiceApplication" />
-        <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="" />
@@ -244,75 +80,22 @@
       <workItem from="1717993705905" duration="615000" />
       <workItem from="1717994342412" duration="1130000" />
       <workItem from="1717995494793" duration="4467000" />
-      <workItem from="1718000336611" duration="15977000" />
+      <workItem from="1718000336611" duration="15641000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
-      <created>1716141681628</created>
+      <created>1718089656195</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1716141681628</updated>
+      <updated>1718089656195</updated>
     </task>
-    <task id="LOCAL-00002" summary="Updates">
-      <option name="closed" value="true" />
-      <created>1717436727287</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1717436727287</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Dcokerization of services with Jib plugin complete">
-      <option name="closed" value="true" />
-      <created>1718006273030</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718006273030</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Discovery service and Api Gateway issues resolved.">
-      <option name="closed" value="true" />
-      <created>1718017238336</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1718017238336</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Discovery service and Api Gateway issues resolved.">
-      <option name="closed" value="true" />
-      <created>1718018078662</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1718018078662</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="First Commit" />
-    <MESSAGE value="Updates" />
-    <MESSAGE value="Dcokerization of services with Jib plugin complete" />
     <MESSAGE value="Discovery service and Api Gateway issues resolved." />
-    <option name="LAST_COMMIT_MESSAGE" value="Discovery service and Api Gateway issues resolved." />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="Workspace deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace deleted" />
   </component>
 </project>
