@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rrekapalli</groupId>
+    <groupId>com.moneyplant</groupId>
     <artifactId>money-plant</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -89,14 +89,14 @@
                         <image>eclipse-temurin:21-jre@sha256:3186dd88a59659929855a6bb785b0528c812eb0b03d97fd6e2221526547ed322</image>
                     </from>
                     <to>
-<!--                    <image>rrekapalli/money-plant:${project.artifactId}-${project.version}</image>-->
+<!--                    <image>moneyplant/money-plant:${project.artifactId}-${project.version}</image>-->
                         <image>rrekapalli/money-plant:api-gateway-${project.version}</image>
                         <image>rrekapalli/money-plant:discovery-server-${project.version}</image>
                         <image>rrekapalli/money-plant:stock-service-${project.version}</image>
                         <image>rrekapalli/money-plant:portfolio-service-${project.version}</image>
 
-<!--                        <image>rrekapalli/money-plant:transaction-service-${project.version}</image>-->
-<!--                        <image>rrekapalli/money-plant:watchlist-service-${project.version}</image>-->
+<!--                        <image>moneyplant/money-plant:transaction-service-${project.version}</image>-->
+<!--                        <image>moneyplant/money-plant:watchlist-service-${project.version}</image>-->
                     </to>
                 </configuration>
             </plugin>
