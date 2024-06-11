@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80a6060f-1f6c-4426-9224-056d31d0d438" name="Changes" comment="Workspace deleted" />
+    <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="Discovery service and Api Gateway issues resolved.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +17,72 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "rr__WorkingBranch",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.api-gateway [com.google.cloud.tools:jib-maven-plugin:3.4.3:build].executor": "Run",
+    "Maven.discovery-server [com.google.cloud.tools:jib-maven-plugin:3.4.3:build].executor": "Run",
+    "Maven.money-plant [--projects,money-plant-core...].executor": "Run",
+    "Maven.money-plant [clean,compile,jib:build].executor": "Run",
+    "Maven.money-plant [clean,verify].executor": "Run",
+    "Maven.money-plant [clean:clean,package].executor": "Run",
+    "Maven.money-plant [clean:compile...].executor": "Run",
+    "Maven.money-plant [jib:build].executor": "Run",
+    "Maven.money-plant [jib:dockerBuild].executor": "Run",
+    "Maven.money-plant [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Debug",
+    "Spring Boot.DiscoveryServerApplication.executor": "Debug",
+    "Spring Boot.PortfolioServiceApplication.executor": "Debug",
+    "Spring Boot.StockServiceApplication.executor": "Debug",
+    "Spring Boot.TransactionServiceApplication.executor": "Debug",
+    "Spring Boot.WatchlistServiceApplication.executor": "Debug",
+    "Spring Boot.WatchlistServiceApplicationMain.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/PoCs/Java/money-plant/portfolio-service/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.35915494",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="Workspace deleted">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="" />
+      <created>1716095014314</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716095014314</updated>
+      <workItem from="1716095015351" duration="467000" />
+      <workItem from="1716095501607" duration="80000" />
+      <workItem from="1716134458207" duration="7549000" />
+      <workItem from="1716191209564" duration="481000" />
+      <workItem from="1717301490689" duration="5478000" />
+      <workItem from="1717347377066" duration="2678000" />
+      <workItem from="1717350241877" duration="2897000" />
+      <workItem from="1717426014420" duration="3626000" />
+      <workItem from="1717851829440" duration="4923000" />
+      <workItem from="1717857406923" duration="1713000" />
+      <workItem from="1717859427941" duration="1977000" />
+      <workItem from="1717991586342" duration="1855000" />
+      <workItem from="1717993705905" duration="615000" />
+      <workItem from="1717994342412" duration="1130000" />
+      <workItem from="1717995494793" duration="4467000" />
+      <workItem from="1718000336611" duration="15641000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
       <created>1718089656195</created>
       <option name="number" value="00001" />
@@ -28,7 +90,7 @@
       <option name="project" value="LOCAL" />
       <updated>1718089656195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
