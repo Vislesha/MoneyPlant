@@ -9,6 +9,7 @@ import org.hibernate.annotations.Nationalized;
 @Entity
 @Data
 @NoArgsConstructor
+@EqualsAndHashCode(callSuper=false)
 public class Portfolio extends BaseAuditEntity {
     @Nationalized
     @Column(nullable = false)
