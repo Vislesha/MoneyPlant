@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="Discovery service and Api Gateway issues resolved.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/entities/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-service/src/main/java/com/rrekapalli/portfolioservice/entities/Portfolio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -23,6 +27,7 @@
     "Maven.money-plant [--projects,money-plant-core...].executor": "Run",
     "Maven.money-plant [clean,compile,jib:build].executor": "Run",
     "Maven.money-plant [clean,verify].executor": "Run",
+    "Maven.money-plant [clean:clean,compile...].executor": "Run",
     "Maven.money-plant [clean:clean,package].executor": "Run",
     "Maven.money-plant [clean:compile...].executor": "Run",
     "Maven.money-plant [jib:build].executor": "Run",
@@ -41,7 +46,7 @@
     "Spring Boot.TransactionServiceApplication.executor": "Debug",
     "Spring Boot.WatchlistServiceApplication.executor": "Debug",
     "Spring Boot.WatchlistServiceApplicationMain.executor": "Debug",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "rr__WorkingBranch",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/PoCs/Java/money-plant/portfolio-service/src/main/resources",
@@ -58,6 +63,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean:clean package" />
+      <command value="mvn clean:clean compile jib:build" />
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="42f1d35e-ff8e-4d5e-9592-7c8c9981c544" name="Changes" comment="" />
@@ -90,12 +101,20 @@
       <option name="project" value="LOCAL" />
       <updated>1718089656195</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Discovery service and Api Gateway issues resolved.">
+      <option name="closed" value="true" />
+      <created>1718090067397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718090067397</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Discovery service and Api Gateway issues resolved." />
     <MESSAGE value="Workspace deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace deleted" />
+    <MESSAGE value="Discovery service and Api Gateway issues resolved." />
+    <option name="LAST_COMMIT_MESSAGE" value="Discovery service and Api Gateway issues resolved." />
   </component>
 </project>
